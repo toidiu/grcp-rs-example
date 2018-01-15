@@ -1,0 +1,21 @@
+[package]
+name = "grpcio-proto"
+version = "0.2.0"
+authors = ["The TiKV Project Developers"]
+license = "Apache-2.0"
+keywords = ["grpc", "proto"]
+repository = "https://github.com/pingcap/grpc-rs"
+homepage = "https://github.com/pingcap/grpc-rs"
+documentation = "https://docs.rs/grpcio-sys"
+description = "Public proto files for grpcio."
+categories = ["network-programming"]
+build = "build.rs"
+
+[dependencies]
+protobuf = "1.2"
+futures = "0.1"
+grpcio = { version = "0.2.0", features = ["secure"] }
+
+[build-dependencies]
+protobuf = "1.2"
+grpcio-compiler = { version = "0.2.0" }
