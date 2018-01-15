@@ -1,14 +1,16 @@
 [package]
 name = "grpcio-proto"
-version = "0.2.0"
-authors = ["The TiKV Project Developers"]
+
+version = "0.1.0"
+authors = ["toidiu"]
 license = "Apache-2.0"
 keywords = ["grpc", "proto"]
-repository = "https://github.com/pingcap/grpc-rs"
-homepage = "https://github.com/pingcap/grpc-rs"
-documentation = "https://docs.rs/grpcio-sys"
-description = "Public proto files for grpcio."
+repository = "https://github.com/todidiu/grpcio-example"
+readme = "README.md"
+homepage = "https://github.com/todidiu/grpcio-example"
+description = "Public proto files for grpcio-example."
 categories = ["network-programming"]
+
 build = "build.rs"
 
 [dependencies]
