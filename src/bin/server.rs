@@ -31,8 +31,8 @@ use futures::Future;
 use futures::sync::oneshot;
 use grpcio::{Environment, RpcContext, ServerBuilder, UnarySink};
 
-use grpcio_proto::example::helloworld::{HelloReply, HelloRequest};
-use grpcio_proto::example::helloworld_grpc::{self, Greeter};
+use grpcio_proto::greeter::helloworld::{HelloReply, HelloRequest};
+use grpcio_proto::greeter::helloworld_grpc::{self, Greeter};
 
 
 #[derive(Clone)]

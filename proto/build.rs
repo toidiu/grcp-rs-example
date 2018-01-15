@@ -74,7 +74,7 @@ fn compile<P: AsRef<Path>>(desc_path: P, module: &str) {
 }
 
 fn main() {
-    for package in &["testing", "example", "health"] {
+    for package in &["testing", "greeter", "health"] {
         compile(format!("{}.desc", package), package);
     }
 }

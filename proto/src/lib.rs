@@ -20,8 +20,8 @@ pub mod testing {
     include!(concat!(env!("OUT_DIR"), "/testing/mod.rs"));
 }
 
-pub mod example {
-    include!(concat!(env!("OUT_DIR"), "/example/mod.rs"));
+pub mod greeter {
+    include!(concat!(env!("OUT_DIR"), "/greeter/mod.rs"));
 }
 
 pub mod health {

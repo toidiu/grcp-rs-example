@@ -10,8 +10,8 @@ use std::sync::Arc;
 use grpcio_example::init_log;
 use grpcio::{ChannelBuilder, EnvBuilder};
 
-use grpcio_proto::example::helloworld::HelloRequest;
-use grpcio_proto::example::helloworld_grpc::GreeterClient;
+use grpcio_proto::greeter::helloworld::HelloRequest;
+use grpcio_proto::greeter::helloworld_grpc::GreeterClient;
 
 
 fn main() {
