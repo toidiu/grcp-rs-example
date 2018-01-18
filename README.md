@@ -1,4 +1,4 @@
-# grcpio-example
+# grcp-rs-example
 A grpc example of using the grpcio crate: https://crates.io/crates/grpcio
 
 ## Motivation
